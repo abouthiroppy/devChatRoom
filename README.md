@@ -6,6 +6,9 @@
   <strong>A devchat.tv's app made by Electron.</strong>
 </div>
 
+## Client
+[devchat](https://github.com/abouthiroppy/devchat): Provides parsed items.
+
 ## Development
 ### Setup
 ```sh
