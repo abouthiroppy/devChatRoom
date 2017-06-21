@@ -1,0 +1,6 @@
+@import "../../../styles/variables.css";
+
+.container {
+  width: 100%;
+  background: var(--key-color);
+}

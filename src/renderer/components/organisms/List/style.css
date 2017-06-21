@@ -1,0 +1,5 @@
+@import "../../../styles/variables.css";
+
+.current {
+  background: var(--background-gray) !important;
+}

@@ -24,9 +24,10 @@ module.exports = {
   plugins: [
     new DashboardPlugin(dashboard.setData),
     new webpack.HotModuleReplacementPlugin(),
-    new FlowStatusWebpackPlugin({
-      failOnError: true
-    }),
+
+    // new FlowStatusWebpackPlugin({
+    //   failOnError: true
+    // }),
     new webpack.LoaderOptionsPlugin({
       debug   : true,
       minimize: false

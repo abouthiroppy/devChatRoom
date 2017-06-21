@@ -1,0 +1,8 @@
+@import "../../../styles/variables";
+
+.container {
+  display: flex;
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+}
