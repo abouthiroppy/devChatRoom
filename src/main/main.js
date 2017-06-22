@@ -9,7 +9,7 @@ const menubar = require('menubar');
 
 const mb = menubar({
   index : 'http://localhost:8080',
-  height: 570,
+  height: 585,
   width : 500
 });
 

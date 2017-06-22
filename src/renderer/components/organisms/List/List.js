@@ -5,7 +5,7 @@ import { List, ListItem } from 'material-ui/List';
 import styles from './style.css';
 
 const ListComponent = (props) => (
-  <List>
+  <List style={{ overflowY: 'auto' }}>
     {
       props.items.map((item) => (
         <ListItem
